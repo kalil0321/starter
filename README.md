@@ -20,12 +20,37 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Project Structure
+
+This repository contains two different implementations:
+
+### Main Branch (Current)
+
+The main branch includes a complete authentication system with Supabase integration featuring:
+
+-   Landing page with authentication buttons
+-   User registration and login functionality
+-   Password reset capabilities
+-   Protected routes and session management
+-   Supabase Auth integration via their component registry
+
+### Simple Branch
+
+For those who prefer a minimal setup, the `simple` branch will be available with:
+
+-   Basic Next.js functionality only
+-   No authentication features
+-   Simplified landing page
+-   Perfect for learning or building upon
+
+Choose the branch that best fits your project needs!
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+-   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
